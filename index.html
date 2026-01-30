@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oluwabukola Makinde | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Intro overlay (dark map cover -> wipe reveal site) -->
+  <div class="intro-overlay" id="introOverlay" aria-hidden="true">
+    <div class="intro-bg" aria-hidden="true"></div>
+
+    
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container container">
+      <a href="#home" class="nav-logo" aria-label="Home">OM</a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#research" class="nav-link">Research</a></li>
+        <li><a href="#consulting" class="nav-link">Consulting</a></li>
+        <li><a href="#teaching" class="nav-link">Teaching</a></li>
+        <li><a href="#awards" class="nav-link">Awards</a></li>
+        <li><a href="#speaking" class="nav-link">Speaking Engagement</a></li>
+        <li><a href="#blog" class="nav-link">Blog</a></li>
+        <li><a href="#cv" class="nav-link">CV</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero / Intro -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-top">
+        <img src="assets/headshot.png" alt="Oluwabukola Makinde headshot" class="headshot reveal" data-stagger />
+      </div>
+
+      <div class="hero-content">
+        <h1 class="hero-name reveal" data-stagger>Oluwabukola O. Makinde Ph.D</h1>
+
+        <p class="hero-headline reveal" data-stagger>
+          Driving inclusive development through evidence-based innovative solutions and strategic partnerships
+        </p>
+
+        <p class="hero-summary reveal" data-stagger>
+          I work at the intersection of agricultural development, women's empowerment, policy, and social impact.
+          With expertise in program design, stakeholder engagement, and cross-cultural collaboration, I help organizations and governments
+          achieve their mission-driven goals. 
+        </p>
+
+        <a href="#contact" class="btn btn-primary reveal" data-stagger>Work With Me</a>
+
+        <!-- "Inside my world" layout (you can replace text later) -->
+        <div class="hero-story reveal" data-stagger>
+            <div class="hero-story-left">
+                <div class="story-title-wrap">
+                  <h2 class="story-title">
+                    Inside<br>
+                    <span>my world</span>
+                  </h2>
+                </div>
+              </div>
+              
+          <div class="hero-story-right">
+            <p>
+              I grew up in Nigeria, an agrarian country where agriculture contributes nearly 60% to the economy. At the time, I didn’t fully grasp what that meant.
+              But as I began to study global systems and development, I realized that agriculture isn't just about food. It's synonymous with power, equity,
+              resilience, and the future of humanity, and this realization shapes the work I do today.
+            </p>
+
+            <p>
+              I am deeply passionate about transforming agricultural systems to be inclusive, sustainable, and community-driven. My work centers the voices of
+              women and rural communities. They are not just beneficiaries, but are crucial and active agents of change in ensuring the sustenance of humanity.
+            </p>
+
+            <p class="hero-story-more" id="heroStoryMore">
+              With a background in international development, agricultural innovation, and policy research, I use systems thinking to design conceptual frameworks
+              and interventions that address the root causes of inequality. At the core of my work - developing policy frameworks, managing research projects,
+              teaching in classrooms or facilitating local engagement, I approach every project with detail, purpose, and heart.
+              <br/><br/>
+              This is not just work to me, I believe it is a calling. It is rooted in my story and sustained by a belief that we can build a more equitable world
+              from the soil up!
+            </p>
+
+            <button class="link-button" id="heroStoryToggle" aria-expanded="false">
+              Read more
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">About</h2>
+      <div class="about-content">
+        <div class="about-text reveal">
+          <p>
+            I’m a researcher, strategist and development practitioner passionate about reimagining how stories of Africa’s growth and resilience are told. I have over five years of experience leading interdisciplinary, policy-relevant research at the intersection of agriculture, gender equity, and rural development. My work focuses on bridging research, policy, and practice to create lasting impact in the development space.
+          </p>
+          <p>
+            Skilled in both qualitative and quantitative research, I use tools like R, ATALS.ti and Scenario planning workshops to unpack data and envision alternative futures that expand access to agricultural innovation for rural farmers.
+          </p>
+          <p>
+            I earned my Ph.D. in Innovation in Global Development from Arizona State University, where my research examined how farmer cooperatives as local institutions drive inclusive agricultural transformation in Sub-Saharan Africa from the bottom-up.
+          </p>
+          <p>
+            I have supported and coordinated government-funded initiatives across the U.S. Sub-Saharan Africa and Latin America, helping teams design results frameworks that strengthen local institutions in rural agriculture.
+            At the heart of it all is my commitment to equity-centered research, where innovation reflects community realities, and where impact is measured not just in numbers, but in transformed lives.
+          </p>
+        </div>
+
+        <div class="about-values reveal">
+          <h3>Values &amp; Focus</h3>
+          <ul class="values-list">
+            <li>Gender and Development</li>
+            <li>Sustainable and Climate-Resilient Agriculture</li>
+            <li>Policy</li>
+            <li>Institutional Capacity Assessment</li>
+            <li>Agriculture and Innovation - Technology adoption and digital tools for smallholder farmers</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Development Project -->
+<section id="projects" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title reveal">Projects</h2>
+
+    <!-- Gallery Grid (image + title only) -->
+    <div class="projects-grid projects-gallery" aria-label="Global Development Projects Gallery">
+      
+      <!-- Project 1 -->
+      <button
+        type="button"
+        class="project-tile reveal"
+        data-stagger
+        data-title="Cooperative Governance and Coffee in Uganda"
+        data-location="Uganda • Mixed Methods • Gender & Agriculture"
+        data-context="Uganda’s coffee sector is undergoing rapid transformation as the country pursues ambitious production and revenue targets under Vision 2030. Farmer cooperatives play a central role in this shift, serving as key institutions for organizing smallholder farmers, improving market access, and facilitating services. Women constitute nearly 60% of Uganda’s agricultural labor force, yet their access to resources, decision-making power, and economic benefits within cooperative systems remains uneven. Understanding how these local institutions shape women’s empowerment is critical to ensuring that growth in Uganda’s high-value coffee sector is inclusive, productive, and sustainable."
+        data-role="As a Doctoral Researcher, I led an interdisciplinary, mixed-methods study examining how farmer cooperatives influence women’s empowerment in Uganda’s coffee value chain. My work focused on uncovering how intersectional identities—including marital status, education level, and socioeconomic position—shape women’s experiences, opportunities, and constraints within cooperative systems. Over three months of fieldwork in Uganda, I designed and implemented surveys, conducted in-depth interviews, carried out field observations, and facilitated a scenario-planning workshop. Guided by a theory of change linking access to finance, technology, and markets with empowerment outcomes, I analyzed both institutional structures and women’s lived experiences within the sector."
+        data-outcome="This research resulted in the development of the Empowerment Conundrum Framework, an analytical tool that explains how cooperatives can simultaneously enable and constrain women’s empowerment. Findings revealed that while cooperatives provide important economic, social, and institutional benefits, these gains are uneven and strongly shaped by intersectional factors. I also identified how cooperative policies and the involvement of male allies can be enabling in some contexts and limiting in others. The project generated actionable insights for policymakers, donors, and development practitioners seeking to advance gender equity, strengthen cooperative governance, and support community-led agricultural transformation in high-value crop sectors."
+
+        data-images="assets/projects/uganda-cover.jpeg,assets/projects/uganda-1.heic,assets/projects/uganda-2.heic,assets/projects/uganda-3.jpeg"
+      >
+        <div class="project-thumb">
+          <img src="assets/projects/uganda-cover.jpeg" alt="Project cover image" loading="lazy" />
+        </div>
+        <div class="project-tile-title">
+          Cooperative Governance and Coffee Value Chain in Uganda
+        </div>
+      </button>
+
+      <!-- Project 2 -->
+      <button
+        type="button"
+        class="project-tile reveal"
+        data-stagger
+        data-title="Small holder Farmer Advancement, Northern Uganda"
+        data-location="Uganda • Small Hollder Farmer • Women"
+        data-context="Field of Hope is an international development organization working in northern Uganda to improve the livelihoods of smallholder farmers through integrated agricultural and financial interventions. In Uganda, more than 65% of the population depends on agriculture, yet rural poverty and food insecurity remain acute—particularly in the Northern and Eastern regions, where a majority of households live below the poverty line. Addressing these structural challenges is critical to building resilient rural livelihoods and advancing food and nutrition security."
+        data-role="As a Research Fellow, I supported Field of Hope’s Smallholder Farmer Advancement (SFA) pillar, which focuses on strengthening food security, income generation, and market participation among smallholder farmers. My work emphasized smallholder development because of its strategic importance: inclusive agricultural systems can serve as a powerful poverty alleviation pathway when farmers gain access to innovation, technology, and functioning markets. I analyzed baseline survey data collected from new SFA program beneficiaries to establish benchmark indicators for livelihoods and agricultural production. The dataset captured crop production across 13 commodities, including pulses, roots, cereals, grains, and fiber crops."
+        data-outcome="This analysis provided a critical evidence base to assess initial conditions, strengthen monitoring, evaluation, and learning (MEL) systems, and guide future program adaptation. The results enabled Field of Hope to more effectively track progress, target interventions, and improve outcomes related to food security, income, and resilience among smallholder farmers in northern Uganda."
+        data-images="assets/projects/p2-cover.JPG,assets/projects/p2-1.heic,assets/projects/p2-2.jpeg"
+      >
+        <div class="project-thumb">
+          <img src="assets/projects/p2-cover.JPG" alt="Project Two cover image" loading="lazy" />
+        </div>
+        <div class="project-tile-title">Small holder Farmer Advancement, Northern Uganda</div>
+      </button>
+
+      <!-- Project 3 -->
+      <button
+        type="button"
+        class="project-tile reveal"
+        data-stagger
+        data-title=" International Agricultural Education Fellowship Program (IAEFP)"
+        data-location="Ghana & Guatemala • Grant • Education"
+        data-context="The International Agricultural Education Fellowship Program (IAEFP) was designed to strengthen global agricultural education, workforce development, and international collaboration between the United States and partner countries. Established under the Agriculture Improvement Act of 2018 (PL 115-335, Sec. 3307; 7 USC § 3295) and signed into law by the U.S. Department of Agriculture, Foreign Agricultural Service (USDA–FAS), the program responds to the growing need for globally competent agricultural professionals and stronger trade and knowledge linkages between the U.S. and developing countries. Hosted by the Norman Borlaug Institute for International Agriculture and Development, the initiative partners with AgriCorps to advance school-based agricultural education and youth extension programs in eligible host countries, beginning with Ghana and later expanding to Guatemala."
+        data-role="I co-designed the International Agricultural Education Fellowship Program (IAEFP), contributing to its vision and structure. The program was intentionally developed to train and support eligible U.S.-based college students with agricultural or agriculture-related degrees through immersive fellowship placements abroad. I conducted research on aligning educational objectives with U.S. agricultural policy priorities. I contributed to proposal development, helping position the fellowship as both a capacity-building initiative and a platform for strengthening U.S.–global agricultural engagement."
+        data-outcome="The IAEFP was successfully funded by USDA–FAS with a total project value of $499,864. The program deploys U.S.-based agricultural fellows to facilitate agricultural pedagogy workshops, support youth extension services, and promote sustainable agricultural practices while showcasing U.S. leadership in global agricultural development. The initiative advances inclusive, school-based agricultural education models that foster long-term cooperation between the United States and partner countries. Due to its success and relevance, the project contract was renewed and expanded, with implementation continuing in Guatemala, reinforcing the program’s scalability and sustained impact."
+        data-images="assets/projects/p3-cover.jpeg"
+      >
+        <div class="project-thumb">
+          <img src="assets/projects/p3-cover.jpeg" alt="Project Three cover image" loading="lazy" />
+        </div>
+        <div class="project-tile-title">International Agricultural Education Fellowship Program (IAEFP)</div>
+      </button>
+
+      <!-- Project 4 -->
+      <button
+        type="button"
+        class="project-tile reveal"
+        data-stagger
+        data-title="Café 2057 — Experiential Futures & Consumer Food Systems Research"
+        data-location="Arizona, USA • Futures Research"
+        data-context="This project was designed to explore current and future consumer relationships with food and beverage systems using an innovative, arts-based experiential futures approach. Responding to growing interest in how Gen Z and other consumers emotionally engage with food choices, product design, flavors, and sustainability, the project sought to move beyond traditional market research methods. By situating inquiry within an everyday “third place” such as a coffee shop, the research examined how affect, emotion, and place shape consumer visions of future food systems. The work also aimed to generate actionable insights for industry stakeholders seeking to design novel food and beverage experiences aligned with evolving consumer values."
+        data-role="As part of the research team, I contributed to the design and implementation of Café 2057, an interactive experiential futures exhibit that combined creative arts-based methods, scenario building, and participatory engagement to examine affective dimensions of consumer behavior. I created a qualitative codebook that allowed for coding qualitative data. My role bridged evaluation, data analysis and interdisciplinary research design."
+        data-outcome="The project resulted in a peer-reviewed publication that advances methodological innovation in the field of futuring. The paper demonstrates how experiential futures and creative arts-based methods can be mobilized as an initial step in an iterative, multi-stage research process to investigate everyday behaviors and consumer decision-making."
+        data-images="assets/projects/p4-cover.jpeg"
+      >
+        <div class="project-thumb">
+          <img src="assets/projects/p4-cover.jpeg" alt="Project Four cover image" loading="lazy" />
+        </div>
+        <div class="project-tile-title">Café 2057 — Experiential Futures & Consumer Food Systems Research</div>
+      </button>
+
+
+      <!-- Project 5 -->
+      <button
+        type="button"
+        class="project-tile reveal"
+        data-stagger
+        data-title="Policy Design Using Futures Scenario Planning"
+        data-location="Policy • Futures Research"
+        data-context="Uganda’s coffee sector is a major contributor to national export earnings, yet smallholder farmers—particularly women—remain unevenly integrated into higher-value segments of the value chain. Farmer cooperatives are positioned as key institutions for inclusion, but their effectiveness depends on government policy support, coordination, and governance structures that account for women’s diverse, intersectional realities."
+        data-role="I led a policy-focused research study examining how government–cooperative interactions shape inclusive outcomes in Uganda’s coffee sector. Using a futures scenario planning approach, I connected empirical findings from farmers and cooperatives with policymakers’ decision-making processes. I designed and facilitated a scenario planning workshop with officials from UCDA to co-develop future pathways for cooperatives in the coffee value chain."
+        data-outcome="The research produced three future scenarios illustrating how different policy choices could strengthen or constrain cooperative capacity and women’s empowerment by 2035. Findings show that targeted policy support, including improved cooperative governance, access to technologies, traceability systems, and coordinated institutional action, is critical for inclusive value chain upgrading. The study generated actionable policy recommendations and advanced the Empowerment Conundrum Framework, demonstrating that inclusive outcomes require intersection-aware, institutionally grounded policy design rather than uniform solutions."
+        data-images="assets/projects/p5-cover.heic"
+      >
+        <div class="project-thumb">
+          <img src="assets/projects/p5-cover.heic" alt="Inclusive coffee futures workshop" loading="lazy" />
+        </div>
+        <div class="project-tile-title">Policy Design Using Futures Scenario Planning</div>
+      </button>
+
+    </div>
+  </div>
+
+  <!-- Modal (only used for Projects) -->
+  <div class="projects-modal" id="projectsModal" aria-hidden="true" role="dialog" aria-label="Project details">
+    <div class="projects-modal__backdrop" data-projects-close></div>
+
+    <div class="projects-modal__panel" role="document">
+      <button class="projects-modal__close" type="button" aria-label="Close project details" data-projects-close>
+        ✕
+      </button>
+
+      <div class="projects-modal__media">
+        <button class="projects-modal__nav projects-modal__nav--prev" type="button" aria-label="Previous image" id="projPrevBtn">‹</button>
+
+        <img class="projects-modal__image" id="projMainImage" src="" alt="Project image" />
+
+        <button class="projects-modal__nav projects-modal__nav--next" type="button" aria-label="Next image" id="projNextBtn">›</button>
+      </div>
+
+      <div class="projects-modal__thumbs" id="projThumbs"></div>
+
+      <div class="projects-modal__content">
+        <h3 class="projects-modal__title" id="projTitle"></h3>
+        <p class="projects-modal__meta" id="projLocation"></p>
+
+        <div class="projects-modal__text">
+          <h4>Context</h4>
+          <p id="projContext"></p>
+        
+          <h4>My Role</h4>
+          <p id="projRole"></p>
+        
+          <h4>Outcomes</h4>
+          <p id="projOutcome"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- Research -->
+<section id="research" class="section">
+  <div class="container">
+    <h2 class="section-title reveal">Research</h2>
+
+    <div class="research-list" id="researchList">
+
+      <!-- 1 -->
+      <article class="research-item reveal" data-research-item>
+        <h3 class="research-title">Designing to Elicit Future Affective Potential: Café 2057</h3>
+
+        <p class="research-authors">
+          <strong>Makinde, O.</strong>, Spackman, C., Rodriguez, A., Kuznetsov, S., Wharton, C. (2025).
+        </p>
+
+        <p class="research-venue"><em>Futures</em></p>
+
+        <button class="research-summary-toggle" type="button" data-summary-toggle aria-expanded="false">
+          Show summary
+        </button>
+
+        <div class="research-summary" data-summary hidden>
+          <p>This paper is an approach for extending the use of creative arts-based methods to co-create outputs about futures research.</p>
+        </div>
+
+        <a class="research-link-btn" href="https://www.sciencedirect.com/science/article/abs/pii/S0016328725001466?via%3Dihub" target="_blank" rel="noopener noreferrer">
+          View research
+        </a>
+      </article>
+
+      <!-- 2 -->
+      <article class="research-item reveal" data-research-item>
+        <h3 class="research-title">The Empowerment Conundrum: Assessing the Role of Farmer Cooperatives in Facilitating Inclusive Agricultural Development in Sub-Saharan Africa: The Case of Coffee in Uganda</h3>
+
+        <p class="research-authors">
+          <strong>Makinde, O.</strong> (2024).
+        </p>
+
+        <p class="research-venue"><em>Arizona State University</em></p>
+
+        <button class="research-summary-toggle" type="button" data-summary-toggle aria-expanded="false">
+          Show summary
+        </button>
+
+        <div class="research-summary" data-summary hidden>
+          <p>Doctoral Dissertation examines the role of farmer cooperatives in fostering inclusive agricultural Development with a focus on individual and collective women’s empowerment.</p>
+        </div>
+
+        <a class="research-link-btn" href="https://www.proquest.com/openview/bf23b4766f4d76bffde2e359f9a2a9c7/1?pq-origsite=gscholar&cbl=18750&diss=y" target="_blank" rel="noopener noreferrer">
+          View research
+        </a>
+      </article>
+
+      <!-- 3 -->
+      <article class="research-item reveal" data-research-item>
+        <h3 class="research-title">Flavor as a Tool for Sensory Justice?</h3>
+
+        <p class="research-authors">
+          <strong>Makinde, O.</strong>, Spackman, C. (2022)
+        </p>
+
+        <p class="research-venue"><em>Presented at the 4S/ESOCITE 2022 Preliminary Conference annual meeting of the Society</em></p>
+
+        <button class="research-summary-toggle" type="button" data-summary-toggle aria-expanded="false">
+          Show summary
+        </button>
+
+        <div class="research-summary" data-summary hidden>
+          <p>One of the goals of this project is to activate increased empathy for how others anticipate and act on/frame emerging technological futures in the food system.</p>
+        </div>
+
+        <!-- No link button for this one (because you said not all have links) -->
+      </article>
+
+      <!-- 4 -->
+      <article class="research-item reveal" data-research-item>
+        <h3 class="research-title">Achieve Gender Equality for All. Chapter 5, In SDG NUGGET HOUR: A Compendium of Bitesize Views from Global Advocates of the Sustainable Development Goals</h3>
+
+        <p class="research-authors">
+          <strong>Makinde, O.</strong> (2022).
+        </p>
+
+        <p class="research-venue"><em>First Edition, AlphaZulu Advocates. Daniella Tilbury Press, 2022.</em></p>
+
+        <button class="research-summary-toggle" type="button" data-summary-toggle aria-expanded="false">
+          Show summary
+        </button>
+
+        <div class="research-summary" data-summary hidden>
+          <p>I authored chapter five of this book which focuses on addressing gender inequality in the agricultural sector. While efforts are geared towards productivity, a move towards engaging a broader view of agricultural food systems that recognizes women’s priorities and distinct role is important.</p>
+        </div>
+
+        <a class="research-link-btn" href="https://www.amazon.com/SDG-NUGGET-HOUR-Practitioners-Sustainable/dp/B09Y4LN584/ref=sr_1_1?crid=399T2NFWCU04A&dib=eyJ2IjoiMSJ9.O2DlE9IMWLUZFW01pAzKpg.9Jicmx006i_k1nrvSCdEGIZ4UL9H-Ymwa9q_MKm9OmU&dib_tag=se&keywords=A+Compendium+of+Bitesize+Views+from+Global+Advocates+of+the+Sustainable+Development+Goals&nsdOptOutParam=true&qid=1769535114&sprefix=a+compendium+of+bitesize+views+from+global+advocates+of+the+sustainable+development+goals%2Caps%2C166&sr=8-1" target="_blank" rel="noopener noreferrer">
+          View research
+        </a>
+      </article>
+
+      <!-- 5 -->
+      <article class="research-item reveal" data-research-item>
+        <h3 class="research-title">Feminization of Agriculture: Factors Contributing to the Low Adoption of Agricultural Technologies among Female Farmers in Uganda.</h3>
+
+        <p class="research-authors">
+          <strong>Makinde, O.</strong> (2022)
+        </p>
+
+        <p class="research-venue"><em>Presented at the ISA 2022 63rd Annual Convention, Nashville Tennessee</em></p>
+
+        <button class="research-summary-toggle" type="button" data-summary-toggle aria-expanded="false">
+          Show summary
+        </button>
+
+        <div class="research-summary" data-summary hidden>
+          <p>A presentation on how some of the factors such as education, age, marital status affect adoption of technologies among female farmers.</p>
+        </div>
+      </article>
+
+      <!-- 6 -->
+      <article class="research-item reveal" data-research-item>
+        <h3 class="research-title">The Empowerment Conundrum: How Does Investing in Female Farmers Affect Gendered- Power Relationships at Household Levels in Uganda? Poster Presentation</h3>
+
+        <p class="research-authors">
+          <strong>Makinde, O.</strong> (2021).
+        </p>
+
+        <p class="research-venue"><em>Institute for Social Science Research, Arizona State University</em></p>
+
+        <button class="research-summary-toggle" type="button" data-summary-toggle aria-expanded="false">
+          Show summary
+        </button>
+
+        <div class="research-summary" data-summary hidden>
+          <p>Findings show that Agricultural productivity is higher in female headed households than male headed households as a result of more autonomy for decision-making and control of resources.</p>
+        </div>
+      </article>
+
+      <!-- 7 -->
+      <article class="research-item reveal" data-research-item>
+        <h3 class="research-title">Technology as Education in Facilitating Peace Dialogues for Women and Youth in Post-Conflict Rwanda and Afghanistan: Comparative Analysis</h3>
+
+        <p class="research-authors">
+          <strong>Makinde, O.</strong>, Hafed, Y. (2020)
+        </p>
+
+        <p class="research-venue"><em>Co-presented virtually at the annual IEEE ISTAS20 Symposium, October 2020</em></p>
+
+        <button class="research-summary-toggle" type="button" data-summary-toggle aria-expanded="false">
+          Show summary
+        </button>
+
+        <div class="research-summary" data-summary hidden>
+          <p>This paper provided a comparative analysis of the successes and failures of policies and mechanisms that integrate the role of women and youth in post conflict setting in Afghanistan and Rwanda.</p>
+        </div>
+      </article>
+
+      <!-- 8 -->
+      <article class="research-item reveal" data-research-item>
+        <h3 class="research-title">Habitat for Humanity: Does Habitat Home-Ownership Impact Well-being.</h3>
+
+        <p class="research-authors">
+          Martinez, P., Pannel, M., Park, J., Baghdasaryan, G., <strong>Makinde, O.</strong>, Ford, K., Poudyal, S., &amp; Feaga, F. (2019).
+        </p>
+
+        <p class="research-venue"><em>OakTrust</em></p>
+
+        <button class="research-summary-toggle" type="button" data-summary-toggle aria-expanded="false">
+          Show summary
+        </button>
+
+        <div class="research-summary" data-summary hidden>
+          <p>A study conducted by graduate students at The George Bush School of Government and Public Service in partnership with The Bryan College Station Habitat for Humanity. As a result of the completion of this project, the main beneficiaries are current and future HFH homeowners.</p>
+        </div>
+
+        <a class="research-link-btn" href="https://bush.tamu.edu/wp-content/uploads/2020/02/Upton-Captone-Report-May-2019-2.pdf" target="_blank" rel="noopener noreferrer">
+          View research
+        </a>
+      </article>
+
+    </div>
+
+    <button class="research-more-btn" id="researchMoreBtn" type="button" aria-expanded="false">
+      Show more research
+    </button>
+  </div>
+</section>
+
+  <!-- Consulting -->
+  <section id="consulting" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal">Consulting</h2>
+
+      <div class="consulting-content">
+        <div class="consulting-intro reveal">
+          <p>
+            I provide strategic consulting services to organizations working in global development, helping them design effective
+            programs, build strong partnerships, and achieve measurable impact.
+          </p>
+        </div>
+
+        <div class="consulting-grid">
+          <div class="service-card reveal">
+            <h3>Program Design &amp; Strategy</h3>
+            <p>Develop comprehensive program frameworks aligned with organizational goals and local contexts.</p>
+          </div>
+          <div class="service-card reveal">
+            <h3>Stakeholder Engagement</h3>
+            <p>Facilitate partnerships between governments, NGOs, communities, and private sector actors.</p>
+          </div>
+          <div class="service-card reveal">
+            <h3>Monitoring &amp; Evaluation</h3>
+            <p>Design robust M&amp;E systems that demonstrate effectiveness to funders and stakeholders.</p>
+          </div>
+          <div class="service-card reveal">
+            <h3>Capacity Building</h3>
+            <p>Deliver training through workshops to strengthen teams and empower local leadership/communities.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teaching -->
+  <section id="teaching" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Teaching</h2>
+  
+      <div class="teaching-list">
+  
+        <!-- 1 -->
+        <div class="teaching-item reveal">
+          <div class="teach-left">
+            <div class="teach-org">Arizona State University, Global Launch &amp; Nanzan University (Nagoya, Japan)</div>
+            <div class="teach-term">Summer 2023</div>
+          </div>
+  
+          <div class="teach-right">
+            <h3 class="teach-course">GBL26 – Sustainability Campaign Project</h3>
+            <div class="teach-role">Instructional Professor</div>
+            <p class="teach-desc">
+              Designed and delivered a project-based curriculum focused on developing actionable sustainability campaigns across key sectors,
+              including fast fashion, food systems, and renewable energy, emphasizing applied analysis and strategic communication.
+            </p>
+          </div>
+        </div>
+  
+        <!-- 2 -->
+        <div class="teaching-item reveal">
+          <div class="teach-left">
+            <div class="teach-org">Arizona State University</div>
+            <div class="teach-term">Spring 2022–2023</div>
+          </div>
+  
+          <div class="teach-right">
+            <h3 class="teach-course">FIS 305 – Ways of Knowing <span class="teach-muted">(Instructor: Dr. Clark Miller)</span></h3>
+            <div class="teach-role">Teaching Assistant</div>
+            <p class="teach-desc">
+              Supported 27 students in designing individual research proposals, with a focus on research design, epistemology, and methodological
+              rigor for end-of-semester projects.
+            </p>
+          </div>
+        </div>
+  
+        <!-- 3 -->
+        <div class="teaching-item reveal">
+          <div class="teach-left">
+            <div class="teach-org">Arizona State University, Global Launch &amp; King Abdullah University of Science and Technology (KAUST)</div>
+            <div class="teach-term">Summer 2022</div>
+          </div>
+  
+          <div class="teach-right">
+            <h3 class="teach-course">GBL22 – Topics in Sustainability</h3>
+            <div class="teach-role">Instructional Professor</div>
+            <p class="teach-desc">
+              Designed and taught an intensive four-week course examining sustainability across environmental science, business, community, and
+              global development, integrating experiential activities to assess institutional and organizational roles in sustainable transitions.
+            </p>
+          </div>
+        </div>
+  
+        <!-- 4 -->
+        <div class="teaching-item reveal">
+          <div class="teach-left">
+            <div class="teach-org">Arizona State University</div>
+            <div class="teach-term">Spring 2020–2021</div>
+          </div>
+  
+          <div class="teach-right">
+            <h3 class="teach-course">FIS 338 – Moviegoer’s Guide to the Future <span class="teach-muted">(Instructor: Dr. Andrew Maynard)</span></h3>
+            <div class="teach-role">Teaching Assistant</div>
+            <p class="teach-desc">
+              Assisted in mentoring 78 students through course objectives, providing instructional support, progress review, and guidance on
+              futures-oriented analysis.
+            </p>
+          </div>
+        </div>
+  
+        <!-- 5 -->
+        <div class="teaching-item reveal">
+          <div class="teach-left">
+            <div class="teach-org">Arizona State University</div>
+            <div class="teach-term">Spring 2021–2022</div>
+          </div>
+  
+          <div class="teach-right">
+            <h3 class="teach-course">FIS 394 – Moviegoer’s Guide to the Future <span class="teach-muted">(Instructor: Dr. Andrew Maynard)</span></h3>
+            <div class="teach-role">Teaching Assistant</div>
+            <p class="teach-desc">
+              Supported instructional delivery and student mentorship, contributing to assessment, feedback, and futures-based critical reflection.
+            </p>
+          </div>
+        </div>
+  
+        <!-- 6 -->
+        <div class="teaching-item reveal">
+          <div class="teach-left">
+            <div class="teach-org">Arizona State University</div>
+            <div class="teach-term">Spring 2021–2022</div>
+          </div>
+  
+          <div class="teach-right">
+            <h3 class="teach-course">GTD 511 – Development Policy &amp; Practices <span class="teach-muted">(Instructor: Dr. Netra Chhetri)</span></h3>
+            <div class="teach-role">Teaching Assistant</div>
+            <p class="teach-desc">
+              Worked with students on applied policy projects examining the relationships between development theory and practice across sectors
+              such as health, education, and food systems.
+            </p>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+
+  <!-- Awards -->
+<section id="awards" class="section">
+  <div class="container">
+    <h2 class="section-title reveal">Awards</h2>
+
+    <!-- Research Awards -->
+    <h3 class="subsection-title reveal">Research Awards</h3>
+
+    <div class="awards-list" id="researchAwards">
+      <!-- 1 -->
+      <div class="award-item reveal">
+        <div class="award-icon" aria-hidden="true">🏆</div>
+        <div class="award-body">
+          <div class="award-year">2024</div>
+          <h4 class="award-title">Dissertation College Fellowship</h4>
+          <div class="award-giver">Arizona State University</div>
+          <p class="award-desc">
+            The Graduate College Fellowship is a merit-based award to support degree completion of outstanding graduate students for their last semester of a Doctoral or terminal campus immersion degree.
+          </p>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="award-item reveal">
+        <div class="award-icon" aria-hidden="true">🏆</div>
+        <div class="award-body">
+          <div class="award-year">2024</div>
+          <h4 class="award-title">Earl A. And Lenore H. Tripke Travel Grant</h4>
+          <div class="award-giver">Arizona State University</div>
+          <p class="award-desc">
+            The Tripke Travel Grant is a merit-based award to support graduate students for experiential travel furthering their studies.
+          </p>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="award-item reveal">
+        <div class="award-icon" aria-hidden="true">🏆</div>
+        <div class="award-body">
+          <div class="award-year">2023</div>
+          <h4 class="award-title">Graduate Research Support Program</h4>
+          <div class="award-giver">Arizona State University</div>
+          <p class="award-desc">
+            The Graduate Education Research Support Program was created in 1980 through a joint venture of the Graduate and Professional Student Association and the Office of the Vice President of Research and Economic Affairs. One purpose of the GRSP is to promote excellence in Graduate education at Arizona State University.
+          </p>
+        </div>
+      </div>
+
+      <!-- 4 (hidden by default) -->
+      <div class="award-item reveal" data-award-hidden>
+        <div class="award-icon" aria-hidden="true">🏆</div>
+        <div class="award-body">
+          <div class="award-year">2022</div>
+          <h4 class="award-title">Summer Research Fellowship</h4>
+          <div class="award-giver">Field of Hope International Development Organization</div>
+          <p class="award-desc">
+            Immersive 3 months Summer Fellowship in Uganga.
+          </p>
+        </div>
+      </div>
+
+      <!-- 5 (hidden by default) -->
+      <div class="award-item reveal" data-award-hidden>
+        <div class="award-icon" aria-hidden="true">🏆</div>
+        <div class="award-body">
+          <div class="award-year">2021</div>
+          <h4 class="award-title">Honorable Mention 2021 Poster Graduate Research Contest</h4>
+          <div class="award-giver">Arizona State University</div>
+          <p class="award-desc">
+            Honorable mention for graduate research poster contest- proposal category $400 cash gift.
+          </p>
+        </div>
+      </div>
+
+      <!-- 6 (hidden by default) -->
+      <div class="award-item reveal" data-award-hidden>
+        <div class="award-icon" aria-hidden="true">🏆</div>
+        <div class="award-body">
+          <div class="award-year">2020</div>
+          <h4 class="award-title">Interdisciplinary Enrichment Fellowship</h4>
+          <div class="award-giver">Arizona State University</div>
+          <p class="award-desc">
+            A highly competitive, merit-based award to support recruitment and professional development of outstanding incoming underrepresented masters and doctoral students enrolling in a campus immersion degree program.
+          </p>
+        </div>
+      </div>
+
+      <!-- 7 (hidden by default) -->
+      <div class="award-item reveal" data-award-hidden>
+        <div class="award-icon" aria-hidden="true">🏆</div>
+        <div class="award-body">
+          <div class="award-year">2019</div>
+          <h4 class="award-title">James W. McGrew Research Award</h4>
+          <div class="award-giver">Texas A&amp;M University - The Bush School of Government and Public Service</div>
+          <p class="award-desc">
+            This award recognizes outstanding student capstone research in the field of public administration and/or public policy.
+          </p>
+        </div>
+      </div>
+
+      <button class="awards-more-btn" type="button" id="researchAwardsToggle" aria-expanded="false">
+        Show more
+      </button>
+    </div>
+
+    <!-- Teaching Awards -->
+    <h3 class="subsection-title reveal" style="margin-top:34px;">Teaching Awards</h3>
+
+    <div class="awards-list">
+      <div class="award-item reveal">
+        <div class="award-icon" aria-hidden="true">🏆</div>
+        <div class="award-body">
+          <div class="award-year">2022</div>
+          <h4 class="award-title">SUN Award for Excellent Teaching</h4>
+          <div class="award-giver">Arizona State University</div>
+          <p class="award-desc">
+            SUN Award is awarded to individuals serving university needs. It encompasses exemplary service, supporting student success, and sustainability efforts.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Speaking -->
+<section id="speaking" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title reveal">Speaking Engagements</h2>
+
+    <div class="speaking-gallery reveal">
+      <div class="poster-card poster-square">
+        <img src="assets/speaking/speaking-1.jpeg" alt="" />
+      </div>
+
+      <div class="poster-card poster-square">
+        <img src="assets/speaking/speaking-2.png" alt="" />
+      </div>
+
+      <div class="poster-card poster-wide">
+        <img src="assets/speaking/speaking-3.jpeg" alt="" />
+      </div>
+
+      <div class="poster-card poster-wide">
+        <img src="assets/speaking/speaking-4.png" alt="" />
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Blog -->
+  <section id="blog" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Blog</h2>
+  
+      <div class="blog-list">
+  
+        
+  <!-- Blog 1 -->
+  <article class="blog-item reveal">
+    <img
+      src="assets/blogs/storytelling.heic"
+      alt="Storytelling in qualitative research"
+      class="blog-thumb"
+    />
+
+    <div class="blog-content">
+      <h3 class="blog-title">
+        <a
+          href="https://medium.com/@oluwabukunolamimakinde/the-art-of-storytelling-in-qualitative-research-who-gets-to-share-the-stories-25b515a5d2b5"
+          target="_blank"
+          rel="noopener"
+        >
+          The Art of Storytelling in Qualitative Research: Who gets to share the stories?
+        </a>
+      </h3>
+
+      <p class="blog-summary">
+        Telling stories to reveal elements and images of an event is one of the most powerful tools for interactive engagement anywhere. A…
+      </p>
+    </div>
+  </article>
+
+  <!-- Blog 2 -->
+  <article class="blog-item reveal">
+    <img
+      src="assets/blogs/women-agriculture.jpeg"
+      alt="Empowering women in agriculture"
+      class="blog-thumb"
+    />
+
+    <div class="blog-content">
+      <h3 class="blog-title">
+        <a
+          href="https://medium.com/@oluwabukunolamimakinde/empowering-women-in-agriculture-what-does-it-entail-e745c38f5fd7"
+          target="_blank"
+          rel="noopener"
+        >
+          Empowering Women in Agriculture… What does it entail?
+        </a>
+      </h3>
+
+      <p class="blog-summary">
+        In my last write-up, I promised to share my experience with the women farmers here in Uganda. So here we go! It’s been a…
+      </p>
+    </div>
+  </article>
+
+  <!-- Blog 3 -->
+  <article class="blog-item reveal">
+    <img
+      src="assets/blogs/development.heic"
+      alt="Better ways to do development"
+      class="blog-thumb"
+    />
+
+    <div class="blog-content">
+      <h3 class="blog-title">
+        <a
+          href="https://medium.com/@oluwabukunolamimakinde/is-there-a-better-way-to-do-development-49528ad125b8"
+          target="_blank"
+          rel="noopener"
+        >
+          Is there a better way to do Development?
+        </a>
+      </h3>
+
+      <p class="blog-summary">
+        Okay, y’all, I never thought I would get excited writing but here I am documenting my experiences through words, and I’m glad I…
+      </p>
+    </div>
+  </article>
+  
+      </div>
+    </div>
+  </section>
+
+  <!-- CV -->
+<section id="cv" class="section">
+  <div class="container">
+    <h2 class="section-title reveal">CV</h2>
+
+    <div class="cards-grid">
+      <div class="info-card reveal">
+        <h3>Curriculum Vitae</h3>
+        <p>You can download my full CV below.</p>
+
+        <a
+          href="assets/_Makinde CV.pdf"
+          class="btn btn-primary"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View / Download CV
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal">Contact</h2>
+
+      <div class="contact-content">
+        <div class="contact-info reveal">
+          <p>
+            Interested in connecting and working with fellow professionals, potential collaborators, and organizations to create
+            positive change.
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <strong>Email:</strong>
+              <a href="mailto:makindebukola6@gmail.com">makindebukola6@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <strong>LinkedIn:</strong>
+              <a href="https://www.linkedin.com/in/o-makinde/" target="_blank" rel="noopener noreferrer">linkedin.com</a>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Oluwabukola Makinde. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
