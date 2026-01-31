@@ -236,7 +236,9 @@
   
   .hero-headline {
     font-size: 1.08rem;
-    color: var(--muted);
+    font-style: italic;
+    color: var(--accent);
+    opacity: 0.9;
     margin: 0 auto 18px;
     max-width: 62ch;
   }
@@ -342,6 +344,24 @@
     transform: translateY(0);
   }
   
+  /* =========================
+   ABOUT: show more / show less
+   ========================= */
+  .about-more{
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-6px);
+    transition: max-height 380ms ease, opacity 260ms ease, transform 260ms ease;
+  }
+
+  .about-more.is-open{
+    max-height: 1000px; /* enough for all paragraphs */
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
   /* "Read more" button */
   .link-button {
     background: transparent;
@@ -1151,7 +1171,22 @@
     height: auto;
     aspect-ratio: auto;
   }
+
+  /* Vertical (portrait) posters */
+  #speaking .poster-portrait{
+    width: 300px;
+    aspect-ratio: 3 / 4;
+  }
   
+  /* Portrait posters: fill the portrait box */
+  #speaking .poster-portrait img{
+    width: 100%;
+    height: 100% !important;  /* overrides height:auto */
+    object-fit: cover;
+    object-position: top;
+  }
+
+
   #speaking .poster-card img{
     width: 100%;
     height: auto;

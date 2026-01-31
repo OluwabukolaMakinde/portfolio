@@ -145,6 +145,21 @@ if (contactForm) {
   });
 })();
 
+
+// About "Show more / Show less" toggle
+(function () {
+  const btn = document.getElementById("aboutToggle");
+  const more = document.getElementById("aboutMore");
+  if (!btn || !more) return;
+
+  btn.addEventListener("click", () => {
+    const isOpen = more.classList.toggle("is-open");
+    btn.setAttribute("aria-expanded", String(isOpen));
+    btn.textContent = isOpen ? "Show less" : "Show more";
+  });
+})();
+
+
 // Intro overlay (dark map cover -> wipe reveal into page)
 (function () {
   const overlay = document.getElementById("introOverlay");
