@@ -1144,10 +1144,10 @@
     flex-wrap: nowrap;
     gap: 18px;
     margin-top: 24px;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     overflow-x: auto;
-    padding: 6px 0 10px;
+    padding: 6px 18px 10px;
   }
   
   #speaking .poster-card{
