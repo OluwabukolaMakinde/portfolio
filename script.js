@@ -394,3 +394,30 @@ document.addEventListener("DOMContentLoaded", () => {
     toggleBtn.setAttribute("aria-expanded", expanded ? "true" : "false");
   });
 });
+
+
+// Blog: show more / show less
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleBtn = document.getElementById("blogToggle");
+  const wrapper = document.getElementById("blogList");
+  if (!toggleBtn || !wrapper) return;
+
+  const hiddenItems = wrapper.querySelectorAll("[data-blog-hidden]");
+  if (!hiddenItems.length) return;
+
+  let expanded = false;
+
+  toggleBtn.textContent = "Show more";
+
+  toggleBtn.addEventListener("click", () => {
+    expanded = !expanded;
+
+    // .blog-item is display:flex (column on mobile), not grid
+    hiddenItems.forEach((el) => {
+      el.style.display = expanded ? "flex" : "none";
+    });
+
+    toggleBtn.textContent = expanded ? "Show less" : "Show more";
+    toggleBtn.setAttribute("aria-expanded", expanded ? "true" : "false");
+  });
+});
